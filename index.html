@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js-Calculator</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="inputLine">
+        <form class="form">
+          <input class="inputBar" />
+        </form>
+        <button onclick class="button inicialize">c</button>
+      </div>
+      <div>
+        <button onclick="output(7)" class="button">7</button>
+        <button onclick="output(8)" class="button">8</button>
+        <button onclick="output(9)" class="button">9</button>
+        <button onclick="output('+')" class="button">+</button>
+      </div>
+      <div>
+        <button onclick="output(4)" class="button">4</button>
+        <button onclick="output(5)" class="button">5</button>
+        <button onclick="output(6)" class="button">6</button>
+        <button onclick="output('-')" class="button">-</button>
+      </div>
+      <div>
+        <button onclick="output(1)" class="button">1</button>
+        <button onclick="output(2)" class="button">2</button>
+        <button onclick="output(3)" class="button">3</button>
+        <button onclick="output('*')" lass="button">*</button>
+      </div>
+      <div>
+        <button onclick="output(0)" class="button">0</button>
+        <button onclick="equal()" class="button">=</button>
+        <button onclick="output('/')" class="button">/</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
