@@ -7,10 +7,11 @@
     <link href="index.css" rel="stylesheet" />
   </head>
   <body>
+    <h1>Js-Calculator</h1>
     <div class="main">
       <div class="inputLine">
         <form class="form">
-          <input class="inputBar" />
+          <input class="inputBar" type="text" />
         </form>
         <button onclick class="button inicialize">c</button>
       </div>
@@ -33,7 +34,7 @@
         <button onclick="output('*')" class="button">*</button>
       </div>
       <div>
-        <button onclick="output(0)" class="button">0</button>
+        <button onclick="output(0)" class="button button-zero">0</button>
         <button onclick="equal()" class="button">=</button>
         <button onclick="output('/')" class="button">/</button>
       </div>
